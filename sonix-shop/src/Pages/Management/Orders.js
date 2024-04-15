@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
-import OrderForm from "./OrderForm";
+import OrderForm from "./Forms/OrderForm";
 
 function Orders() {
     const user_id = window.localStorage.getItem("user_id");
